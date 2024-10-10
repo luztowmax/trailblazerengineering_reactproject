@@ -1,0 +1,65 @@
+/* src/components/About.css */
+
+.about-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-section p {
+    line-height: 1.8;
+    font-size: 1.1rem;
+  }
+  
+  /* MD Section Styling */
+  .md-section {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .md-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1.5rem;
+  }
+  
+  .md-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .md-info h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .md-info p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .md-section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .md-image {
+      margin-bottom: 1rem;
+    }
+  }
+  

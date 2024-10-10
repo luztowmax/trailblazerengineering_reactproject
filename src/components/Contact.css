@@ -1,0 +1,63 @@
+/* General section styling */
+.contact-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .contact-icon {
+    margin-right: 15px;
+    color: #007bff;
+    font-size: 1.5rem;
+  }
+  
+  .contact-item a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-item a:hover {
+    color: #0056b3;
+  }
+  
+  .contact-item p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .contact-section {
+      padding: 20px;
+    }
+  
+    .contact-item {
+      font-size: 1rem;
+    }
+  }
+  
